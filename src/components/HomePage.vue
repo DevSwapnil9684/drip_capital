@@ -114,7 +114,7 @@
             <div class="finance-description">
               Up to 60% financing upfront against confirmed buyer purchase orders.
             </div>
-<router-link to="/advance-po" class="finance-cta">Learn More</router-link>
+              <router-link to="/advance-po" class="finance-cta">Learn More</router-link>
             </div>
           </div>
         </div>
@@ -721,7 +721,7 @@ export default {
   object-position: center;
   width: 8px;
   align-self: start;
-  margin-top: 6px;
+  margin-top: 2px;
   flex-shrink: 0;
 }
 
@@ -806,7 +806,7 @@ export default {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin: 0 24px;
+  margin: 0 64px;
 }
 
 
@@ -815,17 +815,17 @@ export default {
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.075);
-  
-  margin-left: 64px;
   width: 590px;
   max-width: 100%;
-  padding-top: 54px;
+  padding-top: 32px;
   padding-bottom: 22px;
-  flex-direction: column;
-  
+  flex-direction: column;  
 }
+.finance-card:first-child {
+  padding-top: 54px;
+}
+
 .finance-card-content {
- 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -897,6 +897,12 @@ export default {
   font-weight: 400;
   text-align: center;
   line-height: 1;
+}
+.finance-card:nth-child(2) .finance-cta {
+  background-color: transparent;
+  border: 1px solid #27b67c;
+  color: #27b67c;
+  text-decoration: none;
 }
 
 /* Advantage Section Styles */
@@ -1009,7 +1015,7 @@ export default {
   background-color: transparent;
   margin-top: 149px;
   width: 100%;
-  padding: 0 49px;
+  padding: 0 64px;
 }
 
 .process-content {
@@ -1109,7 +1115,7 @@ export default {
   background-color: transparent;
   display: flex;
   margin-top: 104px;
-  padding: 0 49px 0;
+  padding: 0 64px 0;
   flex-direction: column;
   align-items: stretch;
 }
@@ -1261,8 +1267,6 @@ export default {
   align-items: center; /* Vertically center */
   justify-content: center; /* Horizontally center */
   gap: 20px;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
-  text-align: center; /* Optional: center text if stacked */
 }
 
 
@@ -1350,24 +1354,22 @@ export default {
 }
 
 .testimonial-indicators {
-  background-color: transparent;
   display: flex;
-  margin-top: 32px;
-  width: 100%;
-  padding: 0 70px;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  flex-direction: row;
+  margin-top: 20px;
+  gap: 10px;
 }
 
 .indicator {
-  aspect-ratio: 0.77;
-  object-fit: contain;
-  object-position: center;
-  width: 24px;
-  flex-shrink: 0;
-  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #27b67c;
 }
 
 /* CTA Section Styles */
@@ -1961,6 +1963,7 @@ export default {
   
   .hero-section {
     max-width: 100%;
+    padding-top: 0;
   }
   
   .hero-content {
@@ -2239,82 +2242,82 @@ export default {
   background-color: #0a2e57;
 }
   
-  .cta-section {
+.cta-section {
     max-width: 100%;
     padding-left: 5px;
     padding-right: 20px;
     margin-top: 40px;
   }
   
-  .cta-container {
+.cta-container {
     max-width: 100%;
     margin-bottom: 10px;
     flex-direction: column;
   }
   
-  .cta-column-left, .cta-column-right {
+.cta-column-left, .cta-column-right {
     width: 100%;
     margin-left: 0;
   }
   
-  .cta-text-container {
+.cta-text-container {
     max-width: 100%;
     margin-top: 40px;
     padding-right: 20px;
   }
   
-  .cta-title, .cta-description {
+.cta-title, .cta-description {
     max-width: 100%;
   }
   
-  .contact-form {
+.contact-form {
     max-width: 100%;
     margin-top: 40px;
   }
   
-  .product-selection {
+.product-selection {
     padding-right: 20px;
     margin-top: 40px;
   }
   
-  .submit-button {
+.submit-button {
     margin-left: 10px;
     padding-left: 20px;
     padding-right: 20px;
     white-space: initial;
   }
   
-  .footer {
+.footer {
     max-width: 100%;
     padding-left: 5px;
     padding-right: 20px;
   }
   
-  .footer-container {
+.footer-container {
     max-width: 100%;
     padding-left: 5px;
     padding-right: 20px;
   }
   
-  .footer-top {
+.footer-top {
     max-width: 100%;
     padding-left: 5px;
     padding-right: 20px;
     flex-direction: column;
   }
   
-  .footer-columns {
+.footer-columns {
     flex-direction: row;
   }
   
-  .footer-column {
+.footer-column {
     width: 100%;
     margin-left: 0;
     margin-top: 19px;
   }
   
-  .footer-column-content {
-    padding-right: 20px;
+.footer-column-content {
+    padding-right: 16px;
   }
   
   .footer-links {
@@ -2352,12 +2355,20 @@ export default {
   .hero-content{
     padding: 0;
   }
+  .features-card{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .feature-label{
+    font-size: 12px;
+  }
   .feature-value{
     font-size: 16px;
     margin-top: 22px;
   }
   .finance-cards-container{
     display: block;
+    margin: 0 20px;
   }
 
   .finance-card{
@@ -2365,6 +2376,18 @@ export default {
     padding-left: 0;
     padding-right :0;
     margin-top: 10px;
+  }
+  .finance-title{
+    font-size: 20px;
+  }
+  .finance-description{
+    font-size: 16px;
+  }
+  .advantage-item-title{
+    font-size: 20px;
+  }
+  .step-title{
+    font-size: 20px;
   }
   .process-column-right {
     display: none;
@@ -2392,6 +2415,7 @@ export default {
       }
   .step-description{
     text-align: center;
+    font-size: 16px;
 
   }
 
