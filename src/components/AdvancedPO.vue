@@ -112,67 +112,133 @@
             </div>
           </div>
         </div>
+        <div class="AdvancePo-section">
+          <div class="section-header">
+            <div class="section-title">Get up to 60% Advance even before you ship.</div>
+            <div class="AdvancePo-content">
+              <p class="AdvancePo-text">Advance against PO provides you early access to capital. This innovative
+                solution is delivered through our trading subsidiary, Voyager Trading</p>
+              <p class="AdvancePo-text">
+                It lets you access up to 60% of your PO value before you ship, so you can cover production and logistics
+                costs without waiting for buyer payments.</p>
+            </div>
+          </div>
+        </div>
         <div class="how-it-works-section">
           <div class="section-header">
-              <div class="section-title">How it works</div>
-              <div class="section-underline"></div>
-            </div>
-          <div class="how-it-works-row">
-            
-              <div class="process-column-left">
-                <div class="process-steps">
-                  <div class="process-step">
-                    <img class="step-image-mobile"
-                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
-
-                    <div class="step-title">PO issued</div>
-                    <div class="step-description">
-                      Your buyer places a PO on Voyager, who then places it with you.
-                    </div>
-                  </div>
-                  <div class="process-step">
-                    <img class="step-image-mobile"
-                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
-
-                    <div class="step-title">Initial Advance</div>
-                    <div class="step-description">
-                      Voyager pays you 60% of the PO value upfront.
-                    </div>
-                  </div>
-                  <div class="process-step">
-                    <img class="step-image-mobile"
-                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
-
-                    <div class="step-title">Shipment Stage</div>
-                    <div class="step-description">
-                      Upload the Bill of Lading and receive another 20%.
-                    </div>
-                  </div>
-                  <div class="process-step">
-                    <img class="step-image-mobile"
-                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
-
-                    <div class="step-title">Final payment on Due date</div>
-                    <div class="step-description">
-                      Once the buyer pays Voyager, you get the balance at the time of settlement.
-                    </div>
-                  </div>
-                  <div class="process-cta">Get an Offer</div>
-                </div>
-                
-              </div>
-              <div class="process-column-right">
-                <div class="process-image-container">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true"
-                    class="process-image" />
-                </div>
-              </div>
-            
+            <div class="section-title">How it works</div>
+            <div class="section-underline"></div>
           </div>
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/079e112c-ae29-4f83-8ed9-3db32fbb24ec?placeholderIfAbsent=true" />
+          <div class="how-it-works-row">
+
+            <div class="how-it-works-column-left">
+              <div class="how-it-works-steps">
+                <div class="how-it-works-step">
+                  <img class="step-image-mobile"
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                  <div class="step-title">PO issued</div>
+                  <div class="step-description">
+                    Your buyer places a PO on Voyager, who then places it with you.
+                  </div>
+                </div>
+                <div class="how-it-works-step">
+                  <img class="step-image-mobile"
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                  <div class="step-title">Initial Advance</div>
+                  <div class="step-description">
+                    Voyager pays you 60% of the PO value upfront.
+                  </div>
+                </div>
+                <div class="how-it-works-step">
+                  <img class="step-image-mobile"
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                  <div class="step-title">Shipment Stage</div>
+                  <div class="step-description">
+                    Upload the Bill of Lading and receive another 20%.
+                  </div>
+                </div>
+                <div class="how-it-works-step">
+                  <img class="step-image-mobile"
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                  <div class="step-title">Final payment on Due date</div>
+                  <div class="step-description">
+                    Once the buyer pays Voyager, you get the balance at the time of settlement.
+                  </div>
+                </div>
+                <div class="how-it-works-cta">Get an Offer</div>
+              </div>
+
+            </div>
+            <div class="how-it-works-column-right">
+              <div class="how-it-works-image-container">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true"
+                  class="how-it-works-image" />
+              </div>
+            </div>
+
+          </div>
         </div>
+        <div class="for-whom-section">
+          <div class="section-header">
+            <div class="section-title">Who is This For</div>
+          </div>
+          <div class="for-whom-content">
+            <p>Advance Against PO is exclusively for our existing export customers at Drip Capital</p>
+            <div class="for-whom-points">
+              <ul class="dash-list">
+                <li>SME exporters already working with Drip and handling large or frequent international orders</li>
+                <li>Sellers who rely on Drip and need advance
+                  payments to manage limited working capital</li>
+                <li>Exporters looking to accelerate cash flow
+                  without offering additional collateral</li>
+              </ul>
+              <img src="@/assets/Rectangle.png" class="for-whom-image">
+            </div>
+            <p>If you are already using our export financing solutions, this is the perfect next step to power your
+              growth. Not an existing customer yet? You can easily become one by financing just three invoices with us
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-wrapper">
+          <div class="carousel-track" id="carouselTrack">
+            
+            <div class="carousel-item">
+              <div class="carousel-image">
+                <img src="@/assets/Rectangle1.png" alt="Image 2" />
+              </div>
+              <div class="carousel-content">
+                <!-- <h3>Carousel Title 2</h3> -->
+                <p>We were able to significantly increase sales to existing customers by shortening our working capital cycle. Thanks to Drip, we have also added new buyers by offering competitive credit terms.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-image">
+                <img src="@/assets/Image.png" alt="Image 3" />
+              </div>
+              <div class="carousel-content">
+                <h3>Carousel Title 3</h3>
+                <p>This is the third carousel item description.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Arrows -->
+          <button class="carousel-button left" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="carousel-button right" onclick="changeSlide(1)">&#10095;</button>
+
+          <!-- Circles -->
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+
+
+
         <div class="awards-section">
           <div class="awards-container">
             <div class="awards-title">Awards and Certifications</div>
@@ -603,7 +669,7 @@ export default {
   /* <- This one is correct */
   margin-top: -19px;
   /* margin-bottom: -32px; */
-  width: 100%;
+  width: 85%;
   max-width: 1440px;
   padding: 80px 50px;
   padding-bottom: 32px;
@@ -730,11 +796,32 @@ export default {
   margin-top: 25px;
 }
 
+.AdvancePo-section {
+  box-shadow: 3px 5px 4px 0px #00000013;
+  max-width: 1440px;
+  padding: 0px 60px;
+  margin-top: 71px;
+  align-self: center;
+  width: 80%;
+}
+
+.AdvancePo-content {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Nunito Sans;
+  line-height: 36px;
+}
+
+.AdvancePo-text {
+  margin-bottom: 50px;
+}
+
+
 .how-it-works-section {
   background-color: transparent;
   align-self: center;
   margin-top: 71px;
-  width: 100%;
+  width: 85%;
   max-width: 1440px;
   padding: 0px 50px;
 }
@@ -745,7 +832,7 @@ export default {
   flex-direction: row-reverse;
 }
 
-.how-it-works-column {
+/* .how-it-works-column {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -766,27 +853,8 @@ export default {
   flex-grow: 1;
   flex-direction: column;
   align-items: stretch;
-}
+} */
 
-.section-heading {
-  background-color: transparent;
-  align-self: center;
-  display: flex;
-  width: 512px;
-  max-width: 100%;
-  padding-right: 80px;
-  flex-direction: column;
-  align-items: start;
-  font-family: Nunito Sans, -apple-system, Roboto, Helvetica, sans-serif;
-  font-size: 31px;
-  color: #0a2e57;
-  font-weight: 800;
-  line-height: 1;
-}
-
-.section-title {
-  line-height: 1;
-}
 
 .section-underline {
   background-color: #27b67c;
@@ -797,7 +865,7 @@ export default {
   height: 4px;
 }
 
-.how-it-works-image-container {
+/* .how-it-works-image-container {
   background-color: transparent;
   margin-top: 50px;
   overflow: hidden;
@@ -865,8 +933,8 @@ export default {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
-}
-/* Process Section Styles */
+} */
+/* how-it-works Section Styles */
 
 .section-header {
   background-color: transparent;
@@ -895,7 +963,7 @@ export default {
   gap: 20px;
 }
 
-.process-column-left {
+.how-it-works-column-left {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -903,7 +971,7 @@ export default {
   width: 50%;
 }
 
-.process-steps {
+.how-it-works-steps {
   background-color: transparent;
   display: flex;
   flex-grow: 1;
@@ -915,7 +983,7 @@ export default {
   width: 100%;
 }
 
-.process-step {
+.how-it-works-step {
   background-color: transparent;
   display: flex;
   padding: 0 36px 10px;
@@ -923,17 +991,18 @@ export default {
   align-items: start;
   color: #0a2e57;
   margin-bottom: 24px;
- 
+
 }
-.process-step:first-child {
+
+.how-it-works-step:first-child {
   color: #0a2e57;
-   border-left: 3px solid #27b67c;
+  border-left: 3px solid #27b67c;
 }
 
 /* All other steps turn gray */
-.process-step:not(:first-child) {
-  color:rgb(149, 146, 146);
-   border-left: 2px solid rgb(149, 146, 146);
+.how-it-works-step:not(:first-child) {
+  color: rgb(149, 146, 146);
+  border-left: 2px solid rgb(149, 146, 146);
 }
 
 .step-title {
@@ -947,7 +1016,7 @@ export default {
   margin-top: 9px;
 }
 
-.process-cta {
+.how-it-works-cta {
   border-radius: 3px;
   background-color: #27b67c;
   border: 1px solid #27b67c;
@@ -959,7 +1028,7 @@ export default {
   text-align: center;
 }
 
-.process-column-right {
+.how-it-works-column-right {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -968,18 +1037,19 @@ export default {
   margin-left: 20px;
 }
 
-.process-image-container {
+.how-it-works-image-container {
   background-color: transparent;
   overflow: hidden;
   width: 100%;
 }
 
-.process-image {
+.how-it-works-image {
   aspect-ratio: 1;
   object-fit: contain;
   object-position: center;
   width: 100%;
 }
+
 /* Hide image inside each step on desktop */
 .step-image-mobile {
   display: none;
@@ -998,6 +1068,131 @@ export default {
   margin-bottom: -484px;
   max-width: 1567px;
 } */
+
+/* Who is This For section*/
+.for-whom-section {
+  background-color: transparent;
+  align-self: center;
+  margin-top: 71px;
+  width: 100%;
+  max-width: 1336px;
+  padding: 30px 80px;
+}
+
+.for-whom-content {
+  font-size: 25px;
+  font-family: Nunito Sans;
+}
+
+.for-whom-points {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.dash-list {
+  list-style-type: none;
+  padding-left: 0;
+  width: 40%;
+}
+
+.dash-list li {
+  margin-bottom: 36px;
+  /* Adds spacing between list items */
+}
+
+.dash-list li::before {
+  content: "– ";
+  /* En dash or hyphen */
+  margin-right: 8px;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 844px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.carousel-item {
+  min-width: 844px;
+  height: 271px;
+  background: #f3f3f3;
+  border-radius: 3px;
+  box-shadow: 1px 3px 4px 0px #00000026;
+  display: flex;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 10%;
+  height: 70%;
+}
+
+.carousel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carousel-content {
+  width: 70%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.carousel-button.left {
+  left: -40px;
+}
+
+.carousel-button.right {
+  right: -40px;
+}
+
+.carousel-dots {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.carousel-dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background-color: #333;
+}
 
 .awards-section {
   background-color: #ffffff;
