@@ -6,7 +6,9 @@
           <header class="header">
             <div class="header-container">
               <div class="logo-container">
-                <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/bf8a5a6dfce551c928014b23f55b90d7f6a0c000?placeholderIfAbsent=true" class="logo" alt="Drip Capital Logo" />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/bf8a5a6dfce551c928014b23f55b90d7f6a0c000?placeholderIfAbsent=true"
+                  class="logo" alt="Drip Capital Logo" />
                 <button class="mobile-menu-toggle" @click="toggleMobileMenu">
                   <span></span>
                   <span></span>
@@ -29,7 +31,9 @@
                   <div class="nav-dropdown">
                     <a href="#" class="nav-link dropdown-toggle">
                       Company
-                      <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ea6652bbee00c3564e35fa00041053ca2215668d?placeholderIfAbsent=true" class="dropdown-icon" alt="Dropdown" />
+                      <img
+                        src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ea6652bbee00c3564e35fa00041053ca2215668d?placeholderIfAbsent=true"
+                        class="dropdown-icon" alt="Dropdown" />
                     </a>
                     <div class="dropdown-menu">
                       <a href="#" class="dropdown-item">About Us</a>
@@ -40,7 +44,9 @@
                   <div class="nav-dropdown">
                     <a href="#" class="nav-link dropdown-toggle">
                       Resources
-                      <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/552e38db2a740e952d6f83ef9b9fa7212f0512e7?placeholderIfAbsent=true" class="dropdown-icon" alt="Dropdown" />
+                      <img
+                        src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/552e38db2a740e952d6f83ef9b9fa7212f0512e7?placeholderIfAbsent=true"
+                        class="dropdown-icon" alt="Dropdown" />
                     </a>
                     <div class="dropdown-menu">
                       <a href="#" class="dropdown-item">Blog</a>
@@ -50,9 +56,13 @@
                   </div>
                   <div class="nav-dropdown">
                     <a href="#" class="nav-link dropdown-toggle">
-                      <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/deb4b50db95418b2e6dddfe8ca1ff095f3e18474?placeholderIfAbsent=true" class="country-icon" alt="Country" />
+                      <img
+                        src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/deb4b50db95418b2e6dddfe8ca1ff095f3e18474?placeholderIfAbsent=true"
+                        class="country-icon" alt="Country" />
                       India
-                      <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/71231a8d886597a88b0425cc267d15465c20c3cb?placeholderIfAbsent=true" class="dropdown-icon" alt="Dropdown" />
+                      <img
+                        src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/71231a8d886597a88b0425cc267d15465c20c3cb?placeholderIfAbsent=true"
+                        class="dropdown-icon" alt="Dropdown" />
                     </a>
                     <div class="dropdown-menu">
                       <a href="#" class="dropdown-item">USA</a>
@@ -69,94 +79,128 @@
             </div>
           </header>
           <div class="hero-container">
-            <div class="hero-title">Advance Against Purchase Order (PO)</div>
-            <div class="hero-subtitle">Get working capital before you ship.</div>
-            <div class="hero-cta-button">
-              <div class="cta-text">Get Started</div>
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/f3893763c9082f2ed621d73f9e5d31b9905c11c4?placeholderIfAbsent=true" class="cta-arrow" />
+            <div class="hero-column-left">
+              <div class="hero-title">Advance Against Purchase Order (PO)</div>
+              <div class="hero-subtitle">Get working capital before you ship.</div>
+              <div class="hero-cta-button">
+                <div class="cta-text">Get Started</div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/f3893763c9082f2ed621d73f9e5d31b9905c11c4?placeholderIfAbsent=true"
+                  class="cta-arrow" />
+              </div>
+            </div>
+            <div class="hero-column-right">
+              <img src="@/assets/ChatGPTImage.png" class="hero-image" />
             </div>
           </div>
+
+
         </div>
-        <div class="features-container">
-          <div class="features-content">
-            <div class="features-card">
-              <div class="features-row">
-                <div class="feature-item">
-                  <div class="feature-label">Higher Credit Line</div>
-                  <div class="feature-value">$2.5 million USD</div>
-                </div>
-                <div class="feature-item">
-                  <div class="feature-label">Cost-Efficient</div>
-                  <div class="feature-value">Competitive pricing</div>
-                </div>
-                <div class="feature-item">
-                  <div class="feature-label">Simple Access</div>
-                  <div class="feature-value">No collateral</div>
-                </div>
-              </div>
+        <div class="features-card">
+          <div class="features-container">
+            <div class="feature-item">
+              <div class="feature-label">Higher Credit Line</div>
+              <div class="feature-value">$2.5 million USD</div>
             </div>
-            <div class="spacer"></div>
-            <div class="description-card">
-              <div class="description-title">Get up to 60% Advance even before you ship.</div>
-              <div class="description-text">
-                Advance against PO provides you early access to capital. This innovative solution is delivered through our trading subsidiary, Voyager Trading.
-                <br /><br />
-                It lets you access up to 60% of your PO value before you ship, so you can cover production and logistics costs without waiting for buyer payments.
-              </div>
+            <div class="feature-item">
+              <div class="feature-label">Cost-Efficient</div>
+              <div class="feature-value">Competitive pricing</div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-label">Simple Access</div>
+              <div class="feature-value">No collateral</div>
             </div>
           </div>
         </div>
         <div class="how-it-works-section">
+          <div class="section-header">
+              <div class="section-title">How it works</div>
+              <div class="section-underline"></div>
+            </div>
           <div class="how-it-works-row">
-            <div class="how-it-works-column">
-              <div class="how-it-works-content">
-                <div class="section-heading">
-                  <div class="section-title">How it works</div>
-                  <div class="section-underline"></div>
+            
+              <div class="process-column-left">
+                <div class="process-steps">
+                  <div class="process-step">
+                    <img class="step-image-mobile"
+                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                    <div class="step-title">PO issued</div>
+                    <div class="step-description">
+                      Your buyer places a PO on Voyager, who then places it with you.
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <img class="step-image-mobile"
+                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                    <div class="step-title">Initial Advance</div>
+                    <div class="step-description">
+                      Voyager pays you 60% of the PO value upfront.
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <img class="step-image-mobile"
+                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                    <div class="step-title">Shipment Stage</div>
+                    <div class="step-description">
+                      Upload the Bill of Lading and receive another 20%.
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <img class="step-image-mobile"
+                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true" />
+
+                    <div class="step-title">Final payment on Due date</div>
+                    <div class="step-description">
+                      Once the buyer pays Voyager, you get the balance at the time of settlement.
+                    </div>
+                  </div>
+                  <div class="process-cta">Get an Offer</div>
                 </div>
-                <div class="how-it-works-image-container">
-                  <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/4326faee6735b134ef682cf12002da6f59a4078f?placeholderIfAbsent=true" class="how-it-works-image" />
+                
+              </div>
+              <div class="process-column-right">
+                <div class="process-image-container">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ece982c2223d6f0f345306850a53d78bcae01d97?placeholderIfAbsent=true"
+                    class="process-image" />
                 </div>
               </div>
-            </div>
-            <div class="how-it-works-column">
-              <div class="steps-container">
-                <div class="steps-content">
-                  <div class="step-item">
-                    <div class="step-title">PO Issued</div>
-                    <div class="step-description">Your buyer places a PO on Voyager, who then places it with you.</div>
-                  </div>
-                  <div class="step-item">
-                    <div class="step-title-alt">Initial Advance</div>
-                    <div class="step-description">Voyager pays you 60% of the PO value upfront.</div>
-                  </div>
-                  <div class="step-item">
-                    <div class="step-title-alt">Shipment Stage</div>
-                    <div class="step-description">Upload the Bill of Lading and receive another 20%.</div>
-                  </div>
-                  <div class="step-item">
-                    <div class="step-title-alt">Final payment on Due date</div>
-                    <div class="step-description">Once the buyer pays Voyager, you get the balance at the time of settlement.</div>
-                  </div>
-                </div>
-                <div class="get-offer-button">Get an Offer</div>
-              </div>
-            </div>
+            
           </div>
-          <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/079e112c-ae29-4f83-8ed9-3db32fbb24ec?placeholderIfAbsent=true" class="process-image" />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/079e112c-ae29-4f83-8ed9-3db32fbb24ec?placeholderIfAbsent=true" />
         </div>
         <div class="awards-section">
           <div class="awards-container">
             <div class="awards-title">Awards and Certifications</div>
             <div class="awards-logos">
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/d9ba90a8f069eac920c7d41cecd98b1f09f0b61a?placeholderIfAbsent=true" class="award-logo" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/7c5931362caa0a2be5b5b087b6dfd1e5c552c832?placeholderIfAbsent=true" class="award-logo" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/309672f08081f508567663dc6a4cc0efe1163001?placeholderIfAbsent=true" class="award-logo" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/a492f7fb380642d023584d6490493abf3a276a7b?placeholderIfAbsent=true" class="award-logo" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/bfa60a99c912fddcdd6cf4430d27091374e6ac20?placeholderIfAbsent=true" class="award-logo" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/2df1af107e5c338cf69a5a140bdf7b2701344fc4?placeholderIfAbsent=true" class="award-logo" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/bccf10b749ebb6a2f716bf055849a51de2ff241d?placeholderIfAbsent=true" class="award-logo" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/b9f78e9bcdcefb55e04dd2917a5df2f9e3c19f6f?placeholderIfAbsent=true" class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/d9ba90a8f069eac920c7d41cecd98b1f09f0b61a?placeholderIfAbsent=true"
+                class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/7c5931362caa0a2be5b5b087b6dfd1e5c552c832?placeholderIfAbsent=true"
+                class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/309672f08081f508567663dc6a4cc0efe1163001?placeholderIfAbsent=true"
+                class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/a492f7fb380642d023584d6490493abf3a276a7b?placeholderIfAbsent=true"
+                class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/bfa60a99c912fddcdd6cf4430d27091374e6ac20?placeholderIfAbsent=true"
+                class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/2df1af107e5c338cf69a5a140bdf7b2701344fc4?placeholderIfAbsent=true"
+                class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/bccf10b749ebb6a2f716bf055849a51de2ff241d?placeholderIfAbsent=true"
+                class="award-logo" />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/b9f78e9bcdcefb55e04dd2917a5df2f9e3c19f6f?placeholderIfAbsent=true"
+                class="award-logo" />
             </div>
           </div>
         </div>
@@ -167,7 +211,8 @@
                 <div class="contact-text-container">
                   <div class="contact-heading">Settle 80% of your payables<br />within 48 hours</div>
                   <div class="contact-description">
-                    Strengthen relationships with your suppliers by ensuring early payment with our collateral-free supply chain management services.
+                    Strengthen relationships with your suppliers by ensuring early payment with our collateral-free
+                    supply chain management services.
                   </div>
                 </div>
               </div>
@@ -213,7 +258,9 @@
                   </div>
                   <div class="submit-button">
                     <div class="submit-text">Submit</div>
-                    <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/4df941b36d3ff5cf2e8b33855b36fd1dea15b407?placeholderIfAbsent=true" class="submit-arrow" />
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/4df941b36d3ff5cf2e8b33855b36fd1dea15b407?placeholderIfAbsent=true"
+                      class="submit-arrow" />
                   </div>
                 </div>
               </div>
@@ -266,7 +313,9 @@
                   </div>
                 </div>
                 <div class="footer-column-logo">
-                  <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/2955df0b26d5cb4970150940638244c6c6303cdf?placeholderIfAbsent=true" class="footer-logo" />
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/2955df0b26d5cb4970150940638244c6c6303cdf?placeholderIfAbsent=true"
+                    class="footer-logo" />
                 </div>
               </div>
               <div class="footer-info">
@@ -275,14 +324,19 @@
                   <div class="address-text">
                     <span class="address-line">Drip Capital Services India LLP</span><br />
                     <span class="address-line">1221, 2nd Floor, Building 12 Solitaire Corporate Park,</span><br />
-                    <span class="address-line">Guru Hargovindji Rd, Chakala, Andheri East, Mumbai, Maharashtra 400093</span><br />
+                    <span class="address-line">Guru Hargovindji Rd, Chakala, Andheri East, Mumbai, Maharashtra
+                      400093</span><br />
                     <span class="contact-line">+91-9987-779-334</span><br />
                     <span class="email-line">cs@dripcapital.com</span>
                   </div>
                 </div>
                 <div class="footer-badges">
-                  <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/28a31ef81e9247a09ddca3f18241cfe039bad7f0?placeholderIfAbsent=true" class="footer-badge" />
-                  <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/efd107716237d7950d3d47965c73545d59b94521?placeholderIfAbsent=true" class="footer-badge-small" />
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/28a31ef81e9247a09ddca3f18241cfe039bad7f0?placeholderIfAbsent=true"
+                    class="footer-badge" />
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/efd107716237d7950d3d47965c73545d59b94521?placeholderIfAbsent=true"
+                    class="footer-badge-small" />
                 </div>
               </div>
               <div class="footer-bottom">
@@ -299,9 +353,15 @@
                 </div>
               </div>
               <div class="social-icons">
-                <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/11e28975778dfc27b76675879a18e3f2fcdeb13f?placeholderIfAbsent=true" class="social-icon" />
-                <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ecb12c15a0576c65e441d26216022d8fd29b3d27?placeholderIfAbsent=true" class="social-icon" />
-                <img src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/fd4398fa811b984717e848130410fb7e3256ffff?placeholderIfAbsent=true" class="social-icon" />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/11e28975778dfc27b76675879a18e3f2fcdeb13f?placeholderIfAbsent=true"
+                  class="social-icon" />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/ecb12c15a0576c65e441d26216022d8fd29b3d27?placeholderIfAbsent=true"
+                  class="social-icon" />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/68b224e7ec2b4710b4e10d3d9afee309/fd4398fa811b984717e848130410fb7e3256ffff?placeholderIfAbsent=true"
+                  class="social-icon" />
               </div>
             </div>
           </div>
@@ -539,17 +599,22 @@ export default {
   background-color: transparent;
   align-self: center;
   display: flex;
+  flex-direction: row;
+  /* <- This one is correct */
   margin-top: -19px;
-  margin-bottom: -32px;
-  width: 917px;
-  max-width: 100%;
-  padding-right: 80px;
-  padding-top: 80px;
+  /* margin-bottom: -32px; */
+  width: 100%;
+  max-width: 1440px;
+  padding: 80px 50px;
   padding-bottom: 32px;
-  flex-direction: column;
   align-items: start;
   color: #0a2e57;
   font-weight: 800;
+}
+
+.hero-column-left {
+  line-height: normal;
+  width: 70%;
 }
 
 .hero-title {
@@ -568,15 +633,17 @@ export default {
   border-radius: 8px;
   background-color: #27b67c;
   border: 1px solid #27b67c;
-  display: flex;
+  display: inline-flex;
+  /* Changed from flex to inline-flex */
   margin-top: 68px;
-  padding: 20px 53px;
-  align-items: stretch;
+  padding: 20px 100px;
+  align-items: center;
+  /* Optional: aligns content nicely */
   gap: 5px;
   font-size: 15px;
   color: #ffffff;
   text-align: center;
-  line-height: 2;
+  line-height: 24px;
 }
 
 .cta-text {
@@ -592,31 +659,36 @@ export default {
   flex-shrink: 0;
 }
 
-.features-container {
-  background-color: #ffffff;
+.hero-column-right {
   display: flex;
-  width: 100%;
-  padding: 0 80px;
   flex-direction: column;
-  align-items: center;
-  font-family: Nunito Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  align-items: stretch;
+  line-height: normal;
+  width: 55%;
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* z-index: 0; */
 }
 
-.features-content {
-  background-color: #ffffff;
-  display: flex;
+.hero-image {
+  aspect-ratio: 1.38;
+  object-fit: contain;
+  object-position: center;
   width: 100%;
-  max-width: 1440px;
-  padding: 7px 1px 35px;
-  flex-direction: column;
-  align-items: center;
+  flex-grow: 1;
 }
 
 .features-card {
   border-radius: 4px;
   background-color: #ffffff;
-  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.075);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+  align-self: center;
+  z-index: 10;
   display: flex;
+  margin-top: -57px;
+  margin-left: 29px;
   width: 945px;
   max-width: 100%;
   padding: 16px 1px;
@@ -626,7 +698,7 @@ export default {
   justify-content: center;
 }
 
-.features-row {
+.features-container {
   background-color: transparent;
   display: flex;
   align-items: stretch;
@@ -658,54 +730,19 @@ export default {
   margin-top: 25px;
 }
 
-.spacer {
-  background-color: transparent;
-  display: flex;
-  width: 1224px;
-  flex-shrink: 0;
-  max-width: 100%;
-  height: 72px;
-}
-
-.description-card {
-  border-radius: 4px;
-  background-color: #ffffff;
-  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.075);
-  align-self: stretch;
-  display: flex;
-  margin-top: 52px;
-  padding: 45px 71px;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.description-title {
-  color: #0a2e57;
-  font-size: 31px;
-  font-weight: 800;
-  line-height: 1;
-  align-self: start;
-}
-
-.description-text {
-  color: #2b2b2b;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 36px;
-  margin-top: 21px;
-}
-
 .how-it-works-section {
   background-color: transparent;
   align-self: center;
   margin-top: 71px;
   width: 100%;
   max-width: 1440px;
+  padding: 0px 50px;
 }
 
 .how-it-works-row {
   gap: 20px;
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .how-it-works-column {
@@ -829,8 +866,126 @@ export default {
   color: #ffffff;
   text-align: center;
 }
+/* Process Section Styles */
+
+.section-header {
+  background-color: transparent;
+  max-width: 100%;
+  font-family: Nunito Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 31px;
+  color: #0a2e57;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.section-title {
+  margin-bottom: 18px;
+}
+
+.process-section {
+  background-color: transparent;
+  margin-top: 149px;
+  width: 100%;
+  padding: 0 49px;
+}
+
+.process-content {
+  margin-top: 23px;
+  display: flex;
+  gap: 20px;
+}
+
+.process-column-left {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: normal;
+  width: 50%;
+}
+
+.process-steps {
+  background-color: transparent;
+  display: flex;
+  flex-grow: 1;
+  padding: 90px 15px;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: Nunito Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+.process-step {
+  background-color: transparent;
+  display: flex;
+  padding: 0 36px 10px;
+  flex-direction: column;
+  align-items: start;
+  color: #0a2e57;
+  margin-bottom: 24px;
+ 
+}
+.process-step:first-child {
+  color: #0a2e57;
+   border-left: 3px solid #27b67c;
+}
+
+/* All other steps turn gray */
+.process-step:not(:first-child) {
+  color:rgb(149, 146, 146);
+   border-left: 2px solid rgb(149, 146, 146);
+}
+
+.step-title {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.step-description {
+  font-size: 16px;
+  line-height: 1;
+  margin-top: 9px;
+}
+
+.process-cta {
+  border-radius: 3px;
+  background-color: #27b67c;
+  border: 1px solid #27b67c;
+  align-self: start;
+  margin-top: 16px;
+  padding: 9px 23px 21px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.process-column-right {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.process-image-container {
+  background-color: transparent;
+  overflow: hidden;
+  width: 100%;
+}
 
 .process-image {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+/* Hide image inside each step on desktop */
+.step-image-mobile {
+  display: none;
+}
+
+/* .process-image {
   aspect-ratio: 1.37;
   object-fit: contain;
   object-position: center;
@@ -842,7 +997,7 @@ export default {
   margin-left: 27px;
   margin-bottom: -484px;
   max-width: 1567px;
-}
+} */
 
 .awards-section {
   background-color: #ffffff;
@@ -1531,7 +1686,7 @@ export default {
     display: none;
   }
 
-  .dropdown-toggle.active + .dropdown-menu {
+  .dropdown-toggle.active+.dropdown-menu {
     display: block;
   }
 
@@ -1540,7 +1695,8 @@ export default {
     width: 100%;
   }
 
-  .login-button, .get-started-button {
+  .login-button,
+  .get-started-button {
     width: 100%;
     text-align: center;
     padding: 12px 20px;
